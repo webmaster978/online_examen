@@ -33,25 +33,25 @@ include('header.php');
             ?>   
             </span>
             <div class="card">
-              <div class="card-header">User Login</div>
+              <div class="card-header">Se connecter</div>
               <div class="card-body">
                 <form method="post" id="user_login_form">
                   <div class="form-group">
-                    <label>Enter Email Address</label>
+                    <label>Entrer l'adresse mail</label>
                       <input type="text" name="user_email_address" id="user_email_address" class="form-control" />
                     </div>
                   <div class="form-group">
-                    <label>Enter Password</label>
+                    <label>Mot de passe</label>
                     <input type="password" name="user_password" id="user_password" class="form-control" />
                   </div>
                   <div class="form-group">
                     <input type="hidden" name="page" value="login" />
                     <input type="hidden" name="action" value="login" />
-                    <input type="submit" name="user_login" id="user_login" class="btn btn-info" value="Login" />
+                    <input type="submit" name="user_login" id="user_login" class="btn btn-info" value="Se connecter" />
                   </div>
                 </form>
                 <div align="center">
-                  <a href="register.php">Register</a>
+                  <a href="register.php">S'inscrire</a>
                 </div>
               </div>
             </div>
