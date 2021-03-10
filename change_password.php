@@ -17,15 +17,15 @@ include('header.php');
 			<br /><br />
 			
 			<div class="card" style="margin-top:50px;margin-bottom: 100px;">
-        		<div class="card-header"><h4>Change Password</h4></div>
+        		<div class="card-header"><h4>Modifier le mot de passe</h4></div>
         		<div class="card-body">
 	        		<form method="post"	id="change_password_form">
 	        			<div class="form-group">
-					        <label>Enter Password</label>
+					        <label>Nouveau mot de passe</label>
 					        <input type="password" name="user_password" id="user_password" class="form-control" />
 					    </div>
 					    <div class="form-group">
-					        <label>Enter Confirm Password</label>
+					        <label>Confirmer le nouveau mot de passe</label>
 					        <input type="password" name="confirm_user_password" id="confirm_user_password" class="form-control" />
 					    </div>
 					    <br />

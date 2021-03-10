@@ -26,7 +26,7 @@ include('header.php');
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
 				<select name="exam_list" id="exam_list" class="form-control input-lg">
-					<option value="">Select Exam</option>
+					<option value="">Selectionner un examen</option>
 					<?php
 
 					echo $exam->Fill_exam_list();
@@ -93,8 +93,8 @@ include('header.php');
 		{
 		?>
 		<div align="center">
-			<p><a href="register.php" class="btn btn-warning btn-lg">Register</a></p>
-			<p><a href="login.php" class="btn btn-dark btn-lg">Login</a></p>
+			<p><a href="register.php" class="btn btn-warning btn-lg">S'inscrire</a></p>
+			<p><a href="login.php" class="btn btn-dark btn-lg">Se connecter</a></p>
 		</div>
 		<?php
 		}
